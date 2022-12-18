@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get("/",[HomeController::class,"index"]);
+Route::get("/blog",[HomeController::class,"blog"]);
+Route::get("/studio",[HomeController::class,"studio"]);
+Route::get("/showcases",[HomeController::class,"showcases"]);
+Route::get("/contact",[HomeController::class,"contact"]);
